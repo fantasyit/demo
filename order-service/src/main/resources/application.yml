@@ -10,7 +10,7 @@ spring:
     name: orderservice
   cloud:
     nacos:
-      server-addr: nacos:8848 # nacos服务地址
+      server-addr: http://192.168.2.199:8848 # nacos服务地址
 #      discovery:
 #        namespace: 4d6ce343-9e1b-44df-a90f-2cf2b6b3d177 # dev环境
 #        ephemeral: false # 是否是临时实例
